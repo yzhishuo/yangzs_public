@@ -1,0 +1,25 @@
+2020-03-27 16:43:27 741| CRIT|[24012]==============log start============
+2020-03-27 16:43:27 741| WARN|[24012]|obs_initialize OBS SDK Version= 3.19.7
+2020-03-27 16:43:31 847| INFO|[24012]|Enter put_object successfully !
+2020-03-27 16:43:31 847| INFO|[24012]|get api version start!
+2020-03-27 16:43:31 847| WARN|[24012]|curl_easy_setopt curl path= https://yangzs2.obs.cn-east-3.myhuaweicloud.com/?apiversion
+2020-03-27 16:43:31 970| INFO|[24012]|get api version !!!  x-obs-api: 3.0
+
+2020-03-27 16:43:31 970| INFO|[24012]|curl_easy_setopt curl with httpResponseCode = 200
+2020-03-27 16:43:31 971| WARN|[24012]|enter request perform!!!
+2020-03-27 16:43:31 971| INFO|[24012]|Ente request_perform object key= 1.txt
+!
+2020-03-27 16:43:31 972| INFO|[24012]|Enter get_object object computed key= 1.txt
+!
+2020-03-27 16:43:31 972| WARN|[24012]|compose_auth_header request_perform : StringToSign:  PUT
+
+
+
+x-obs-acl:private
+x-obs-date:Fri, 27 Mar 2020 08:43:31 GMT
+x-obs-storage-class:STANDARD
+/yangzs2/1.txt
+2020-03-27 16:43:31 972| INFO|[24012]|compose_auth_header request_perform : Authorization: OBS HGQMSABSMPLCVQSSUTVW:pZ0MbiBnd34a3UrQLJIkjuq7OKU=
+2020-03-27 16:43:31 972| INFO|[24012]|setup_curl request_perform setup_url: uri request_get = https://yangzs2.obs.cn-east-3.myhuaweicloud.com/1.txt
+2020-03-27 16:43:31 972| INFO|[24012]|request_perform OBS SDK Version= 3.19.7; Endpoint = http://obs.cn-east-3.myhuaweicloud.com; Access Mode = Virtual Hosting
+2020-03-27 16:43:31 972| INFO|[24012]|request_perform start curl_easy_perform now

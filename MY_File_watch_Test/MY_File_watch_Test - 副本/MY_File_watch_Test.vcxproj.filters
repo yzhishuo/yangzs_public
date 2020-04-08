@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{178b3ddb-9713-49b4-aa58-e071d44f0aae}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{a0d04edb-3cbc-4423-974c-47bbffa758c1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{f69c5981-0e60-4100-a050-8984134ba787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQL">
+      <UniqueIdentifier>{84c6e8fc-466a-4447-be35-dfd157f0f445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systemWatcher">
+      <UniqueIdentifier>{f57055b5-34b9-4f4c-aab1-06301be9579c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obs">
+      <UniqueIdentifier>{48fa037b-f8c9-49a7-8870-c81b78748a77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="my_file_watch_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_my_file_watch_test.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_my_file_watch_test.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_my_file_watch_test.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file_monitoring_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_file_monitoring_thread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_file_monitoring_thread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SQL\dbSqlClass.cpp">
+      <Filter>SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dbSqlClass.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dbSqlClass.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="systemWatcher\FileSystemWatcher.cpp">
+      <Filter>systemWatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FileSystemWatcher.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FileSystemWatcher.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="upfile_obs_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_upfile_obs_thread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_upfile_obs_thread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="my_file_watch_test.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="my_file_watch_test.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="my_file_watch_test.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="file_monitoring_thread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SQL\dbSqlClass.h">
+      <Filter>SQL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="systemWatcher\FileSystemWatcher.h">
+      <Filter>systemWatcher</Filter>
+    </CustomBuild>
+    <CustomBuild Include="upfile_obs_thread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_my_file_watch_test.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\upDcmToCloudGloabs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="obs\eSDKOBS.h">
+      <Filter>obs</Filter>
+    </ClInclude>
+    <ClInclude Include="obs\getopt.h">
+      <Filter>obs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
