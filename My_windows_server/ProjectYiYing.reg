@@ -1,0 +1,3 @@
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"Guard_obs"="D:\\VS\\My_windows_server\\x64\\Debug\\My_windows_server.exe"

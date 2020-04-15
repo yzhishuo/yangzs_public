@@ -1,0 +1,10 @@
+﻿  Moc'ing my_obs_guard.h...
+  Rcc'ing my_windows_server.qrc...
+RCC : warning : No resources in 'D:\VS\My_windows_server\My_windows_server\my_windows_server.qrc'.
+  
+  qrc_my_windows_server.cpp
+  moc_my_obs_guard.cpp
+  main.cpp
+  my_obs_guard.cpp
+  正在生成代码...
+  My_windows_server.vcxproj -> D:\VS\My_windows_server\x64\Release\My_windows_server.exe
