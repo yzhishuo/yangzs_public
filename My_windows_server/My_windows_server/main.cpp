@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 	QApplication a(argc, argv);
 
 	My_obs_Guard obs_guard;
-	obs_guard.init();
+	//obs_guard.init();
 
 	return a.exec();
 

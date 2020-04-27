@@ -15,11 +15,18 @@ class My_obs_Guard : public QObject
 public:
 	My_obs_Guard(QObject *parent=NULL);
 	~My_obs_Guard();
-	void init(void);
+	//void init(void);
 private slots:
-	void open_obs(void);
+	//void open_obs(void);
+	//void sltStateChanged(QProcess::ProcessState staproce);
+	//void sltStateChanged(QProcess::ProcessState staproce);
+	//void sltStateChangedError(QProcess::ProcessError proerror);
+	//void sltStateChangedReadOutput(void);
+	void sltStateChangedfinshed(int exitCode,QProcess::ExitStatus exitStatus);
 private:
-	QTimer *Guard_time;
+	//QTimer *Guard_time;
+	QProcess *process;
+	QString runPath;
 };
 
 #endif // MY_OBS_GUARD_H
